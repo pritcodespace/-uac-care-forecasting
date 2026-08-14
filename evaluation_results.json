@@ -1,0 +1,318 @@
+{
+  "hhs_care": {
+    "Naive Persistence": {
+      "1": {
+        "MAE": 7.56,
+        "RMSE": 7.56,
+        "MAPE": 0.32,
+        "n_folds": 6
+      },
+      "7": {
+        "MAE": 22.73,
+        "RMSE": 25.12,
+        "MAPE": 0.99,
+        "n_folds": 6
+      },
+      "14": {
+        "MAE": 40.22,
+        "RMSE": 45.46,
+        "MAPE": 1.78,
+        "n_folds": 6
+      },
+      "30": {
+        "MAE": 86.6,
+        "RMSE": 100.8,
+        "MAPE": 3.94,
+        "n_folds": 6
+      }
+    },
+    "Moving Average (7d)": {
+      "1": {
+        "MAE": 23.12,
+        "RMSE": 23.12,
+        "MAPE": 1.03,
+        "n_folds": 6
+      },
+      "7": {
+        "MAE": 37.54,
+        "RMSE": 39.25,
+        "MAPE": 1.66,
+        "n_folds": 6
+      },
+      "14": {
+        "MAE": 55.41,
+        "RMSE": 59.6,
+        "MAPE": 2.47,
+        "n_folds": 6
+      },
+      "30": {
+        "MAE": 101.99,
+        "RMSE": 114.51,
+        "MAPE": 4.64,
+        "n_folds": 6
+      }
+    },
+    "Exponential Smoothing": {
+      "1": {
+        "MAE": 12.88,
+        "RMSE": 12.88,
+        "MAPE": 0.58,
+        "n_folds": 6
+      },
+      "7": {
+        "MAE": 28.67,
+        "RMSE": 30.42,
+        "MAPE": 1.29,
+        "n_folds": 6
+      },
+      "14": {
+        "MAE": 47.29,
+        "RMSE": 52.5,
+        "MAPE": 2.16,
+        "n_folds": 6
+      },
+      "30": {
+        "MAE": 90.51,
+        "RMSE": 102.97,
+        "MAPE": 4.24,
+        "n_folds": 6
+      }
+    },
+    "SARIMA": {
+      "1": {
+        "MAE": 12.88,
+        "RMSE": 12.88,
+        "MAPE": 0.58,
+        "n_folds": 6
+      },
+      "7": {
+        "MAE": 28.67,
+        "RMSE": 30.42,
+        "MAPE": 1.29,
+        "n_folds": 6
+      },
+      "14": {
+        "MAE": 47.29,
+        "RMSE": 52.5,
+        "MAPE": 2.16,
+        "n_folds": 6
+      },
+      "30": {
+        "MAE": 90.51,
+        "RMSE": 102.97,
+        "MAPE": 4.24,
+        "n_folds": 6
+      }
+    },
+    "Random Forest": {
+      "1": {
+        "MAE": 10.32,
+        "RMSE": 10.32,
+        "MAPE": 0.45,
+        "n_folds": 6
+      },
+      "7": {
+        "MAE": 26.22,
+        "RMSE": 28.52,
+        "MAPE": 1.15,
+        "n_folds": 6
+      },
+      "14": {
+        "MAE": 42.84,
+        "RMSE": 47.62,
+        "MAPE": 1.9,
+        "n_folds": 6
+      },
+      "30": {
+        "MAE": 88.88,
+        "RMSE": 102.84,
+        "MAPE": 4.05,
+        "n_folds": 6
+      }
+    },
+    "Gradient Boosting": {
+      "1": {
+        "MAE": 13.15,
+        "RMSE": 13.15,
+        "MAPE": 0.6,
+        "n_folds": 6
+      },
+      "7": {
+        "MAE": 29.34,
+        "RMSE": 32.17,
+        "MAPE": 1.31,
+        "n_folds": 6
+      },
+      "14": {
+        "MAE": 48.8,
+        "RMSE": 54.69,
+        "MAPE": 2.18,
+        "n_folds": 6
+      },
+      "30": {
+        "MAE": 97.12,
+        "RMSE": 111.82,
+        "MAPE": 4.45,
+        "n_folds": 6
+      }
+    }
+  },
+  "discharged": {
+    "Naive Persistence": {
+      "1": {
+        "MAE": 5.67,
+        "RMSE": 5.67,
+        "MAPE": 48.02,
+        "n_folds": 6
+      },
+      "7": {
+        "MAE": 6.67,
+        "RMSE": 7.51,
+        "MAPE": 67.95,
+        "n_folds": 6
+      },
+      "14": {
+        "MAE": 6.6,
+        "RMSE": 7.48,
+        "MAPE": 66.02,
+        "n_folds": 6
+      },
+      "30": {
+        "MAE": 6.44,
+        "RMSE": 7.44,
+        "MAPE": 66.81,
+        "n_folds": 6
+      }
+    },
+    "Moving Average (7d)": {
+      "1": {
+        "MAE": 6.36,
+        "RMSE": 6.36,
+        "MAPE": 63.14,
+        "n_folds": 6
+      },
+      "7": {
+        "MAE": 5.32,
+        "RMSE": 6.2,
+        "MAPE": 57.72,
+        "n_folds": 6
+      },
+      "14": {
+        "MAE": 5.03,
+        "RMSE": 6.01,
+        "MAPE": 52.26,
+        "n_folds": 6
+      },
+      "30": {
+        "MAE": 4.67,
+        "RMSE": 5.77,
+        "MAPE": 48.37,
+        "n_folds": 6
+      }
+    },
+    "Exponential Smoothing": {
+      "1": {
+        "MAE": 6.54,
+        "RMSE": 6.54,
+        "MAPE": 65.41,
+        "n_folds": 6
+      },
+      "7": {
+        "MAE": 5.58,
+        "RMSE": 6.5,
+        "MAPE": 58.99,
+        "n_folds": 6
+      },
+      "14": {
+        "MAE": 5.47,
+        "RMSE": 6.49,
+        "MAPE": 55.2,
+        "n_folds": 6
+      },
+      "30": {
+        "MAE": 5.23,
+        "RMSE": 6.48,
+        "MAPE": 52.77,
+        "n_folds": 6
+      }
+    },
+    "SARIMA": {
+      "1": {
+        "MAE": 6.54,
+        "RMSE": 6.54,
+        "MAPE": 65.41,
+        "n_folds": 6
+      },
+      "7": {
+        "MAE": 5.58,
+        "RMSE": 6.5,
+        "MAPE": 58.99,
+        "n_folds": 6
+      },
+      "14": {
+        "MAE": 5.47,
+        "RMSE": 6.49,
+        "MAPE": 55.2,
+        "n_folds": 6
+      },
+      "30": {
+        "MAE": 5.23,
+        "RMSE": 6.48,
+        "MAPE": 52.77,
+        "n_folds": 6
+      }
+    },
+    "Random Forest": {
+      "1": {
+        "MAE": 5.12,
+        "RMSE": 5.12,
+        "MAPE": 39.93,
+        "n_folds": 6
+      },
+      "7": {
+        "MAE": 6.29,
+        "RMSE": 6.81,
+        "MAPE": 62.31,
+        "n_folds": 6
+      },
+      "14": {
+        "MAE": 6.4,
+        "RMSE": 7.19,
+        "MAPE": 66.13,
+        "n_folds": 6
+      },
+      "30": {
+        "MAE": 7.04,
+        "RMSE": 8.11,
+        "MAPE": 79.35,
+        "n_folds": 6
+      }
+    },
+    "Gradient Boosting": {
+      "1": {
+        "MAE": 4.71,
+        "RMSE": 4.71,
+        "MAPE": 55.2,
+        "n_folds": 6
+      },
+      "7": {
+        "MAE": 5.69,
+        "RMSE": 6.23,
+        "MAPE": 67.48,
+        "n_folds": 6
+      },
+      "14": {
+        "MAE": 7.57,
+        "RMSE": 8.82,
+        "MAPE": 84.17,
+        "n_folds": 6
+      },
+      "30": {
+        "MAE": 10.71,
+        "RMSE": 12.33,
+        "MAPE": 125.42,
+        "n_folds": 6
+      }
+    }
+  }
+}
